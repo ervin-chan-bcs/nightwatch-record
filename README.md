@@ -13,16 +13,16 @@ npm i -D nightwatch-record-windows
 Add to your nightwatch.conf.js:
 ```
 videos: {
-                fileName: "nightwatch", // Required field
-                nameAfterTest: true,
-                format: "mp4",
-                enabled: true,
-                deleteOnSuccess: false,
-                path: SCREENSHOT_PATH,
-                fps: 15,
-                input: "video=screen-capture-recorder",
-                videoCodec: "mpeg4"
-              }
+    fileName: "nightwatch", // Required field
+    nameAfterTest: true,
+    format: "mp4",
+    enabled: true,
+    deleteOnSuccess: false,
+    path: SCREENSHOT_PATH,
+    fps: 15,
+    input: "video=screen-capture-recorder",
+    videoCodec: "mpeg4"
+    }
 ```
 
 ## License
