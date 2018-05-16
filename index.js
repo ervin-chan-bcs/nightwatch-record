@@ -46,8 +46,6 @@ module.exports = {
 
             browser.ffmpeg = require('child_process').execFile('ffmpeg',
                 [
-                    '-video_size',
-                    videoSettings.resolution || '1440x900',
                     '-r',
                     videoSettings.fps || 15,
                     '-f',

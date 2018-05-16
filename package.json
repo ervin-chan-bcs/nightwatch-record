@@ -1,5 +1,5 @@
 {
-  "name": "nightwatch-record",
+  "name": "nightwatch-record-windows",
   "version": "0.2.0",
   "description": "Nightwatch.js video screen recording via ffmpeg",
   "main": "index.js",
@@ -8,11 +8,12 @@
     "video",
     "screen",
     "recording",
-    "ffmpeg"
+    "ffmpeg",
+    "windows"
   ],
   "author": {
-    "name": "Ignacio Marenco",
-    "url": "https://github.com/imarenco"
+    "name": "Ervin Chan",
+    "url": "https://github.com/ervin-chan-bcs"
   },
   "directories": {
     "test": "tests"

@@ -2,7 +2,7 @@
 
 module.exports = {
     win: {
-        input: '',
+        input: 'video=screen-capture-recorder',
         encode: 'dshow'
     },
     mac: {
