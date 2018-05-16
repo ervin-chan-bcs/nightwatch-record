@@ -18,12 +18,21 @@ videos: {
     format: "mp4",
     enabled: true,
     deleteOnSuccess: false,
-    path: SCREENSHOT_PATH,
+    path: "",
     fps: 15,
     input: "video=screen-capture-recorder",
     videoCodec: "mpeg4"
     }
 ```
 
+Add to your nightwatch hooks:
+```
+beforeEach: function (browser, done) {
+        require('nightwatch-record').start(browser, done);
+},
+afterEach: function (browser, done) {
+    require('nightwatch-record').stop(browser, done);
+},
+```
 ## License
 Released under the [MIT license](https://opensource.org/licenses/MIT).
