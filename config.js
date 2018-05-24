@@ -2,8 +2,8 @@
 
 module.exports = {
     win: {
-        input: 'video=screen-capture-recorder',
-        encode: 'dshow'
+        input: 'desktop',
+        encode: 'gdigrab'
     },
     mac: {
         input: '1',
